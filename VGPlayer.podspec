@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "VGPlayer"
-  s.version      = "0.2.0"
+  s.version      = "0.1.0"
   s.summary      = "A simple iOS video player in Swift"
   s.description  = "A simple iOS video player in Swift by Vein."
   
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "8.0"
   s.platform     = :ios, "8.0"
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
   s.source       = { :git => "https://github.com/VeinGuo/VGPlayer.git", :tag => s.version }
   s.source_files = 'VGPlayer/Classes/*.*', 'VGPlayer/Classes/**/*.*'
